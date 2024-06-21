@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 10px 20px;
+}
+
+.logo h1 {
+  color: #00ff00;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.login-section,
+.register-section,
+.chat-section {
+  margin: 100px 0;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: auto;
+}
+
+form input {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+form label {
+  text-align: left;
+}
+
+form button {
+  padding: 10px;
+  font-size: 1em;
+  background-color: #00ff00;
+  border: none;
+  cursor: pointer;
+}
+
+.chatbox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.messages {
+  height: 400px;
+  overflow-y: auto;
+  background-color: #222;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#chat-input {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+.chatbox button {
+  padding: 10px;
+  font-size: 1em;
+  background-color: #00ff00;
+  border: none;
+  cursor: pointer;
+}
